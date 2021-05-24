@@ -1,2 +1,37 @@
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+body {
+	background-image: url('../images/1.jpg');
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	color: black;
+}
+#buttons {
+	display: flex;
+
+}
+button { 
+flex: 0 0 33.33%;
+margin: 0 10px;
+padding: 10px 10px;
+border: 2px solid #eee;
+background-color: #ccc;
+}
+
+.page-title {
+	font-size: 45px;
+	color: #f3ec78;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #fff;
+}
+	
