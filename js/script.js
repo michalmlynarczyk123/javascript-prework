@@ -37,15 +37,15 @@ function getMoveName(argMoveId) {
 function displayResult(argPlayerMove, argComputerMove) {
   console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
   if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
-    printMessage('Wygrywasz!');
+    printMessage('Wynik: Wygrywasz!');
   } else if (argPlayerMove == 'kamień' && argComputerMove == 'nożyce') {
-    printMessage('Wygrywasz!');
+    printMessage('Wynik: Wygrywasz!');
   } else if (argPlayerMove == 'nożyce' && argComputerMove == 'papier') {
-    printMessage('Wygrywasz!');
+    printMessage('Wynik: Wygrywasz!');
   } else if (argPlayerMove == argComputerMove && true) {
-    printMessage('Remis');
+    printMessage('Wynik: Remis');
   } else {
-    printMessage('Przegrywasz :(');
+    printMessage('Wynik: Przegrywasz :(');
   }
   printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 }
